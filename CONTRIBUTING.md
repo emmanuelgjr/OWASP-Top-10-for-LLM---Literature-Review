@@ -36,7 +36,7 @@ Improvements to documentation, whether it's a typo fix or an entirely new sectio
 
 ## Discussion and Collaboration
 
-The main channel for discussion and collaboration is on our Slack channel:
+The main channel for discussion and collaboration is on our Slack channel: [#team-llm-datagathering-methodology](https://owasp.slack.com/archives/C05P16PKD7W)
 
 
 We use this channel for regular discussions on the project's methodology, future enhancements, and any issues we're currently facing. It's a great place to ask questions, propose ideas, and collaborate with others who are working on similar problems.
@@ -47,6 +47,6 @@ We have a Code of Conduct that all contributors are expected to adhere to. This 
 
 ## Questions?
 
-If you have any questions, please feel free to ask on the GitHub issues or directly on the Slack channel.
+If you have any questions, please feel free to ask on the GitHub issues or directly on the Slack channel ([#team-llm-datagathering-methodology](https://owasp.slack.com/archives/C05P16PKD7W)).
 
 Thank you for contributing to the OWASP Top 10 for LLM - Literature Review!
