@@ -1,20 +1,20 @@
-#Data Processing Scripts for OWASP Top 10 LLM Analysis
+# Data Processing Scripts for OWASP Top 10 LLM Analysis
 
 This repository contains a series of Python scripts designed for processing and categorizing data relevant to the study of OWASP Top 10 vulnerabilities in Large Language Models (LLMs). The scripts facilitate tasks such as combining CSV files, categorizing data based on various criteria, and applying these categorizations to a dataset.
 
-##Script 1: Combining CSV Files
+## Script 1: Combining CSV Files
 
 This script combines multiple CSV files into a single DataFrame. Ensure the correct paths are specified for your CSV files.
 
 ```python
 import pandas as pd
 
-#List of your CSV files with the correct path
+# List of your CSV files with the correct path
 csv_files = [
-    r'C:PATH1.csv',
-    r'C:PATH2.csv',
-    r'C:PATH3.csv',
-    r'C:PATH4.csv'
+    'C:\\PATH1.csv',
+    'C:\\PATH2.csv',
+    'C:\\PATH3.csv',
+    'C:\\PATH4.csv'
 ]
 
 try:
@@ -25,7 +25,7 @@ except Exception as e:
     print("An error occurred:", e)
 ```
 
-##Script 2: Categorization Functions
+## Script 2: Categorization Functions
 
 These functions categorize text data based on predefined criteria such as research methods, focus areas, topics/themes, geographical and temporal focus.
 
@@ -93,7 +93,7 @@ def categorize_temporal_focus(text):
     return ', '.join(categories)
 ```
 
-##Script 3: Applying Categorizations
+## Script 3: Applying Categorizations
 
 This script applies the above categorization functions to the DataFrame created by combining CSV files.
 
@@ -106,6 +106,6 @@ combined_df['Temporal Focus'] = combined_df[' Description '].apply(categorize_te
 
 ---
 
-##Contribution
+## Contribution
 
 We welcome contributions and suggestions to improve these scripts. Please feel free to fork the repository, make your changes, and submit a pull request. For any queries or suggestions, kindly open an issue in the repository.
